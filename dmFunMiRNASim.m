@@ -6,8 +6,9 @@ function [miRNAfun] = dmFunMiRNASim(meshSim,dm)
     for i=1:dmsize
         cell_dm{i}=find(dm(:,i)==1);
     end
-    
-    miRNAfun = zeros(541,541);
+    %nm=size(dm,2)
+    %miRNAfun = zeros(541,541);
+    miRNAfun = zeros(dmsize,dmsize);
     for i=1:dmsize
         miRNAfun(i,i)=1;
         Gi=cell_dm{i};

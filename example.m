@@ -42,8 +42,8 @@ dmtest(A(:,[4 2]))=0;
 dmtest(A(:,[4 3]))=0;
 
 %% Re Compute Similarity
-diseaseSim = constructDiseasesimCell(meshSim,dtSim,dmtest, 1, 1);
-miRNASim = constructMiRNAsimCell(seqSim,mtSim,meshSim,dmtest, 1, 1);  
+diseaseSim = constructDiseasesimCell(meshSim,dtSim,dsSim,dmtest, 1, 1);
+miRNASim = constructMiRNAsimCell(seqSim,mtSim,meshSim,msSim,dmtest, 1, 1);  
 
 %% Update tensor
 Xsparse=sptensor(trainX);
@@ -57,7 +57,7 @@ maxIter= 100;
 alpha = 1;        
 beta = 0.1;   
 K =30;        
-R =100;         
+R =120;         
 
 %% Obtain Auxiliary features
 [LA,Ui] = MyLapalacian(miRNASim,R);
