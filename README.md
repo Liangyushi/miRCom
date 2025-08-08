@@ -1,8 +1,9 @@
-# miRCom
-The source code of the paper “Pei, L.,Luo J.W. miRCom: Tensor completion integrating multi-view information to deduce the potential disease-related miRNA pairs”
-Also, the tensor toolbox should be downloaded in following url:
-https://www.sandia.gov/~tgkolda/TensorToolbox/index-2.6.html
+# miRCom: Tensor completion integrating multi-view information to deduce the potential disease-related miRNA pairs
+MicroRNAs (miRNAs) are consistently capable of regulating gene expression synergistically in a combination mode and play a key role in various biological processes associated with the initiation and development of human diseases, which indicate that comprehending the synergistic molecular mechanism of miRNAs may facilitate understanding the pathogenesis of diseases or even overcome it. However, most existing computational methods had an incomprehensive acknowledge of the miRNA synergistic effect on the pathogenesis of complex diseases, or were hard to be extended to a large-scale prediction task of miRNA synergistic combinations for different diseases. In this article, we propose a novel tensor completion framework integrating multi-view miRNAs and diseases information, called miRCom, for the discovery of potential disease-associated miRNA-miRNA pairs. We first construct an incomplete three-order association tensor and several types of similarity matrices based on existing biological knowledge. Then, we formulate an objective function via performing the factorizations of coupled tensor and matrices simultaneously. Finally, we build an optimization schema by adopting the ADMM algorithm. After that, we obtain the prediction of miRNA-miRNA pairs for different diseases from the full tensor. The contrastive experimental results with other approaches verified that miRCom effectively identify the potential disease-related miRNA-miRNA pairs. Moreover, case study results further illustrated that miRNA-miRNA pairs have more biologically significance and prognostic value than single miRNAs.
 
+<img width="2627" height="2109" alt="fig1" src="https://github.com/user-attachments/assets/f415ebb5-c4e3-400b-af1c-c43f48f282f3" />
+
+The tensor toolbox should be downloaded in following url: https://www.sandia.gov/~tgkolda/TensorToolbox/index-2.6.html
 ---
 
 # Citation
