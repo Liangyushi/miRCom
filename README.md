@@ -4,6 +4,7 @@ MicroRNAs (miRNAs) are consistently capable of regulating gene expression synerg
 <img width="2627" height="2109" alt="fig1" src="https://github.com/user-attachments/assets/f415ebb5-c4e3-400b-af1c-c43f48f282f3" />
 
 The tensor toolbox should be downloaded in following url: https://www.sandia.gov/~tgkolda/TensorToolbox/index-2.6.html
+---
 
 # Citation
 P. Liu, J. Luo and X. Chen, "miRCom: Tensor Completion Integrating Multi-View Information to Deduce the Potential Disease-Related miRNA-miRNA Pairs," in IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 19, no. 3, pp. 1747-1759, 1 May-June 2022, doi: 10.1109/TCBB.2020.3037331. 
