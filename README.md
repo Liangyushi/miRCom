@@ -6,4 +6,4 @@ https://www.sandia.gov/~tgkolda/TensorToolbox/index-2.6.html
 ---
 
 # Citation
-Liu P, Luo J, Chen X. miRCom: Tensor Completion Integrating Multi-View Information to Deduce the Potential Disease-Related miRNA-miRNA Pairs. IEEE/ACM Trans Comput Biol Bioinform. 2022 May-Jun;19(3):1747-1759. doi: 10.1109/TCBB.2020.3037331. Epub 2022 Jun 3. PMID: 33180730.
+P. Liu, J. Luo and X. Chen, "miRCom: Tensor Completion Integrating Multi-View Information to Deduce the Potential Disease-Related miRNA-miRNA Pairs," in IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 19, no. 3, pp. 1747-1759, 1 May-June 2022, doi: 10.1109/TCBB.2020.3037331. 
